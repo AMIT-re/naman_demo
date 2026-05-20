@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiMedia</title>
+    <style>
+      body{
+        background-color: rgb(243, 211, 155);
+         margin: 0;
+         padding: 0;
+      }
+      #mainContent{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap:30px;
+        
+      }
+      .videoPlay{
+        height: 500px;
+        width:1000px;
+
+      }
+ 
+    #heading{
+     
+        background-color:peru;
+        position: sticky;
+        padding: 30px;
+        margin:0;
+        width:100%;
+        text-align: center;
+        font-size: 50px;
+        top:0;
+        position: sticky;
+    }
+    footer p{
+        text-align: center;
+    }
+    </style>
+
+</head>
+<body>
+   
+    <div id="mainContent">
+         <h1 id="heading">MutliMedia Project</h1>
+        <video src="drink.mp4" controls class="videoPlay" >
+        </video>
+        <video src="Mac.mp4" controls autoplay class="videoPlay"></video>
+        <video src="rolex.mp4" controls autoplay  class="videoPlay"></video>
+
+    </div>
+    <hr>
+    <footer>
+        <p>&copy;Copyright 2026 ; All Rights Reserved</p>
+    </footer>
+</body>
+</html>
